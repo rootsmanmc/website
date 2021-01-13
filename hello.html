@@ -1,19 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Welcome</title>
     <style>
-h1{
-color:Fuchsia;
-font-family: Helvetica,arial;
-font-weight: bold;
-text-align:center;
-}
+        h1 {
+            color: Fuchsia;
+            font-family: Helvetica, arial;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-family: Helvetica, arial;
+            color: green;
+            font-weight: bold;
+        }
+        
+        body {
+            background: lightgrey;
+            color: blue;
+        }
     </style>
-    </head>
-    <body>
-      <h1>This is my Website</h1>
+</head>
 
-      <h1 style = 'color:springgreen';>Come and join in the fun</h1>
-    </body>
+<body>
+    <h1>This is my Website</h1>
+
+    <h1 style='color:springgreen' ;>Come and join in the fun</h1>
+
+    <h2 style='color: blueviolet' ;>The Table has been Tidied using CSS</h2>
+    <table>
+        <tr>
+            <thead>
+                <th>Ocean</th>
+                <th>Average Depth</th>
+                <th>Maximum Depth</th>
+            </thead>
+        </tr>
+
+        <tbody>
+            <tr>
+                <td>Pacific Ocean</td>
+                <td>2453 m</td>
+                <td>14556 m</td>
+            </tr>
+
+
+            <tr>
+
+                <td>Atlantic Ocean</td>
+                <td>3618 m</td>
+                <td>14600 m</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+
 </html>
